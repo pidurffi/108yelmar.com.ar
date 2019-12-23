@@ -1,0 +1,22 @@
+
+
+	<section class="banners">
+		<div class="container">
+			<h2>
+				<span class="strong">Bievenido a 108 y el Mar</span>
+				<span class="light">Departamentos de 2 y 3 ambientes frente al mar</span>
+			</h2>
+			<div class="row">
+				{% for promocion in promociones %}
+				<div class="col-sm-4">
+					<div class="bannersItem one">
+						{#<i class="mdi mdi-sofa"></i>#}
+						<h3>{{ promocion.nombre }}</h3>
+						<p>{{ promocion.descripcion|nl2br }}</p>
+						{#<a href="">Ver más</a>#}
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</section>	

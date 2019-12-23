@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1 beta3b" start="node1" apprev="17797">
+  <panorama id="node1">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="29.6819" tilt="-7.21487"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 11:41" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node2}" target="172.4/-2.8/70.0" title="" description="" id="Point01" skinid="ht_node" pan="-349.57" tilt="-8.79"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="-174.729" tilt="-4.73534"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 11:47" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node3}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-188.72" tilt="1.26"/>
+      <hotspot url="{node1}" target="" title="" description="" id="Point02" skinid="ht_node" pan="-90.69" tilt="5.02"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="178.995" tilt="-4.90659"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 11:51" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node14}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-252.48" tilt="-7.73"/>
+      <hotspot url="{node4}" target="" title="" description="" id="Point02" skinid="ht_node" pan="-173.98" tilt="-4.73"/>
+      <hotspot url="{node2}" target="" title="" description="" id="Point04" skinid="ht_node" pan="-2.76" tilt="-3.42"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="80.1577" projection="4" pan="-123.866" tilt="-15.3903"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 11:54" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node5}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-128.83" tilt="-13.75"/>
+      <hotspot url="{node8}" target="" title="" description="" id="Point02" skinid="ht_node" pan="-218.97" tilt="-5.09"/>
+      <hotspot url="{node3}" target="" title="" description="" id="Point03" skinid="ht_node" pan="-296.52" tilt="-7.58"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="143.97" tilt="-16.2982"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 11:57" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node7}" target="" title="" description="" id="Point02" skinid="ht_node" pan="-193.35" tilt="-5.75"/>
+      <hotspot url="{node4}" target="" title="" description="" id="Point03" skinid="ht_node" pan="-56.03" tilt="-4.48"/>
+      <hotspot url="{node18}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-77.12" tilt="-5.85"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node7">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="88.2021" projection="4" pan="-175.354" tilt="-9.60146"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 11:59" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node5}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-4.18" tilt="-6.03"/>
+      <hotspot url="{node18}" target="" title="" description="" id="Point02" skinid="ht_node" pan="-43.54" tilt="-5.25"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node18">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="-160.273" tilt="-13.8108"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="" latitude="4294957297.278231" datetime="13/9/19 12:06" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node5}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-4.07" tilt="1.81"/>
+      <hotspot url="{node7}" target="" title="" description="" id="Point02" skinid="ht_node" pan="-203.52" tilt="-0.67"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node8">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="-93.1448" tilt="-8.36434"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 12:08" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node16}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-99.98" tilt="-1.42"/>
+      <hotspot url="{node9}" target="" title="" description="" id="Point02" skinid="ht_node" pan="-245.9" tilt="-4.76"/>
+      <hotspot url="{node10}" target="" title="" description="" id="Point03" skinid="ht_node" pan="-233.94" tilt="-5.46"/>
+      <hotspot url="{node4}" target="" title="" description="" id="Point04" skinid="ht_node" pan="-15.16" tilt="6.36"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node9">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="173.094" tilt="-14.7205"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 12:09" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node10}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-8.27" tilt="-1.29"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node10">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="169.196" tilt="-13.2407"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 12:10" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node8}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-56.56" tilt="0.37"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node12">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="146.376" tilt="-2.55882"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 12:17" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node9}" target="" title="" description="" id="Point03" skinid="ht_node" pan="-20.66" tilt="-1.57"/>
+      <hotspot url="{node17}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-209.88" tilt="-0.17"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node14">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="155.032" tilt="-17.2319"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 12:41" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node15}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-311.06" tilt="-0.379999"/>
+      <hotspot url="{node3}" target="" title="" description="" id="Point02" skinid="ht_node" pan="-60.75" tilt="-7.82"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node15">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="69.8939" projection="4" pan="59.0054" tilt="-17.4948"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-66.22"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="Fotos 108 y el mar" latitude="4294957297.278231" datetime="13/9/19 12:51" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node14}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-181.92" tilt="1.01"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node16">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="-178.981" tilt="-9.10519"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="wetransfer-73981a" latitude="4294957297.278231" datetime="12/9/19 17:04" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node12}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-153.93" tilt="-1.69"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node17">
+    <input levelbias="0.400" levelbiashidpi="1.000" width="1440" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1440" overlap="1">
+      <level preload="0" width="1440" predecode="0" height="1440"/>
+      <level preload="0" width="720" predecode="0" height="720"/>
+      <level preload="1" width="360" predecode="1" height="360"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" projection="4" pan="178.696" tilt="-15.1813"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="4294957297.278231" author="" tags="wetransfer-73981a" latitude="4294957297.278231" datetime="13/9/19 12:18" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" height="20" background="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot url="{node9}" target="" title="" description="" id="Point01" skinid="ht_node" pan="-9.81" tilt="-0.08"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" hideabout="0" contextprojections="0" rubberband="0"/>
+  </panorama>
+  <masternode>
+    <userdata info="" title="" copyright="" comment="" description="" longitude="" author="" tags="" latitude="" datetime="" source="" customnodeid=""/>
+  </masternode>
+</tour>

@@ -1,0 +1,11 @@
+				{% set i = 0 %}
+				{% for galeria in galerias %}
+				{% for gal in galeria.galeria %}
+				<figure {% if i == 0 %}{% set i = 1 %} class="mobile-thumb" itemprop="associatedMedia"{% endif %} itemscope itemtype="http://schema.org/ImageObject">
+					<a href="{{ asset('/uploads/galerias/gallery/') }}{{ gal }}" itemprop="contentUrl" data-size="800x600">
+						<img src="{{ asset('/uploads/galerias/') }}{{ gal|gallery_thumb(300,225) }}" itemprop="thumbnail" alt="Image description" />
+						<span class="mobile-label">Ver galeria</span>
+					</a>
+				</figure>
+				{% endfor %}
+				{% endfor %}

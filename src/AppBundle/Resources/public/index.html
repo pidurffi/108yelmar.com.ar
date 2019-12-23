@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>108 y el Mar</title>
+	<!-- CSS -->
+	<link href="css/photoswipe.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="css/default-skin.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<!-- ICONS -->
+	<link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,600,700|Source+Sans+Pro:400" rel="stylesheet">
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/photoswipe.js"></script>
+	<script type="text/javascript" src="js/photoswipe-ui.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script>
+		function initialize() {
+			var isDraggable = $(document).width() > 480 ? true : false;  
+			var ispanControl = $(document).width() > 480 ? true : false;
+			var myLatLng = {lat: -37.323141, lng: -57.020792};
+			var marker = new google.maps.Marker({
+			animation: google.maps.Animation.BOUNCE,
+			position: myLatLng,
+			title:"Solar Pampa"
+			});
+			var mapCanvas = document.getElementById('map');
+			var mapOptions = {
+			center: new google.maps.LatLng(-37.323141, -57.020792),
+			zoom: 15,
+			mapTypeControl: true,
+			panControl:ispanControl,
+			draggable: isDraggable,
+			scaleControl: true,
+			streetViewControl: true,
+			rotateControl: true,
+			scrollwheel: false,
+			mapTypeId: google.maps.MapTypeId.SATELLITE
+			}
+			var map = new google.maps.Map(mapCanvas, mapOptions);
+			marker.setMap(map);
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<div class="topHeaderWrapper" id="anchorInicio">
+			<div class="container">
+				<div class="topHeader">
+					<div class="contactInfo">
+						<span class="address">
+							<i class="mdi mdi-map-marker-outline"></i> Calle 108 &amp; Av. Costanera, Villa Gesell, Buenos Aires
+						</span>
+						<span class="telephone">
+							<i class="mdi mdi-phone"></i> 02255.46.2968
+						</span>
+					</div>
+					<div class="socialNav">
+						<a href="">
+							<i class="mdi mdi-facebook"></i>
+						</a>
+						<a href="">
+							<i class="mdi mdi-instagram"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mainHeaderWrapper">
+			<div class="container">
+				<div class="mainHeader">
+					<div class="logo">
+						<span class="logoDraw"></span>
+						<div class="logoText">108 y el Mar</div>
+					</div>
+					<nav>
+						<ul>
+							<li>
+								<a data-scroll href="#anchorInicio">Inicio</a>
+							</li>
+							<li>
+								<a data-scroll href="#anchorServicios">Servicios</a>
+							</li>
+							<li>
+								<a data-scroll href="#anchorGaleria">Galería de fotos</a>
+							</li>
+							<li>
+								<a data-scroll href="#anchorUbicacion">Como llegar</a>
+							</li>
+							<li>
+								<a data-scroll href="#anchorContacto">Contacto</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="mainSlider">
+		<div class="welcome">
+			<div class="starsHeader">
+				<i class="mdi mdi-star"></i>
+				<i class="mdi mdi-star"></i>
+				<i class="mdi mdi-star"></i>
+				<i class="mdi mdi-star"></i>
+				<i class="mdi mdi-star"></i>
+			</div>
+			<span>Bienvenidos a 108 y el Mar</span>
+			<span class="big">Departamentos de 2 y 3 ambientes frente al mar</span>
+		</div>
+	</div>
+
+	<section class="banners">
+		<div class="container">
+			<h2>
+				<span class="strong">Bievenido a 108 y el Mar</span>
+				<span class="light">Departamentos de 2 y 3 ambientes frente al mar</span>
+			</h2>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="bannersItem one">
+						<i class="mdi mdi-sofa"></i>
+						<h3>Las habitaciones</h3>
+						<p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volore eu fugiat nulla pariatur.</p>
+						<a href="">Ver más</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="bannersItem two">
+						
+						<i class="mdi mdi-bell"></i>
+						<h3>Nuestros servicios</h3>
+						<p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volore eu fugiat nulla pariatur.</p>
+						<a href="">Ver más</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="bannersItem three">
+						<i class="mdi mdi-image-filter-hdr"></i>
+						<h3>Excelente ubicación</h3>
+						<p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volore eu fugiat nulla pariatur.</p>
+						<a href="">Ver más</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="servicios" id="anchorServicios">
+		<div class="container">
+			<h2>
+				<span class="strong">Nuestros servicios</span>
+				<span class="light">Pensados en la cómodidad de nuestros huéspedes</span>
+			</h2>
+			<ul>
+				<li>
+					<i class="mdi mdi-parking"></i>
+					Cochera cubierta
+				</li>
+				<li>
+					<i class="mdi mdi-wifi"></i>
+					WiFi
+				</li>
+				<li>
+					<i class="mdi mdi-scale-bathroom"></i>
+					Batas y toallas
+				</li>
+				<li>
+					<i class="mdi mdi-broom"></i>
+					Servicio de mucama
+				</li>
+				<li>
+					<i class="mdi mdi-washing-machine"></i>
+					Ropa blanca
+				</li>
+				<li>
+					<i class="mdi mdi-camera-rear"></i>
+					Cámaras de vigilacia
+				</li>
+				<li>
+					<i class="mdi mdi-white-balance-sunny"></i>
+					Calefacción central
+				</li>
+				<li>
+					<i class="mdi mdi-television"></i>
+					Smart TV 40''
+				</li>
+				<li>
+					<i class="mdi mdi-snowflake"></i>
+					Aire acondicionado
+				</li>
+				<li>
+					<i class="mdi mdi-thermometer-lines"></i>
+					Sauna seco y húmedo
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="fotos" id="anchorGaleria">
+		<div class="container">
+			<h2>
+				<span class="strong">Galería de fotos</span>
+				<span class="light">Conocé nuestras hermosas vistas</span>
+			</h2>
+			<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+				<figure class="mobile-thumb" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/001.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/001.jpg" itemprop="thumbnail" alt="Image description" />
+						<span class="mobile-label">Ver galeria</span>
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/002.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/002.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/003.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/003.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/004.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/004.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/005.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/005.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/006.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/006.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/008.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/008.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/009.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/009.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/012.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/012.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/014.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/014.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/015.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/015.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/016.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/016.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/017.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/017.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/018.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/018.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="images/galeria/big/019.jpg" itemprop="contentUrl" data-size="800x600">
+						<img src="images/galeria/small/019.jpg" itemprop="thumbnail" alt="Image description" />
+					</a>
+				</figure>
+			</div>
+		</div>
+	</section>
+
+	<section class="ubicacion" id="anchorUbicacion">
+		<div class="container">
+			<h2>
+				<span class="strong">Como llegar</span>
+				<span class="light">Ubicado sobre la playa y con vista al mar</span>
+			</h2>
+		</div>
+		<div id="map"></div>
+	</section>
+
+	<section class="contacto" id="anchorContacto">
+		<div class="container">
+			<h2>
+				<span class="strong">Contacto</span>
+				<span class="light">Déjenos su consulta, le responderemos a la brevedad</span>
+			</h2>
+			<form action="">
+				<div class="row">
+					<div class="col-sm-6">
+						<input type="text" placeholder="Nombre">
+						<input type="text" placeholder="Telefono">
+						<input type="text" placeholder="Email">
+					</div>
+					<div class="col-sm-6">
+						<textarea placeholder="Comentario"></textarea>
+					</div>
+					<div class="col-sm-12">
+						<a href="" class="send">Enviar</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9">
+					<ul class="footerNav">
+						<li><a href="">Inicio</a></li>
+						<li><a href="">Servicios</a></li>
+						<li><a href="">Galería de fotos</a></li>
+						<li><a href="">Como llegar</a></li>
+						<li><a href="">Contacto</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<div class="footerLogo">
+						<span class="iconLogo"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+					<button class="pswp__button pswp__button--share" title="Share"></button>
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div>
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

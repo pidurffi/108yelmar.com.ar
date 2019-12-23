@@ -1,0 +1,182 @@
+{% extends "AppBundle::Sitio/layout.html.twig" %}
+
+{% block content %}
+<div class="mainSlider">
+		<div class="welcome">
+			<div class="starsHeader">
+				<i class="mdi mdi-star"></i>
+				<i class="mdi mdi-star"></i>
+				<i class="mdi mdi-star"></i>
+				<i class="mdi mdi-star"></i>
+				<i class="mdi mdi-star"></i>
+			</div>
+			<span>Bienvenidos a 108 y el Mar</span>
+			<span class="big">Departamentos de 2 y 3 ambientes frente al mar</span>
+		</div>
+	</div>
+	
+	{{ render(controller('AppBundle:Default:promociones')) }}
+
+
+	<section class="servicios" id="anchorServicios">
+		<div class="container">
+			<h2>
+				<span class="strong">Nuestros servicios</span>
+				<span class="light">Pensados en la cómodidad de nuestros huéspedes</span>
+			</h2>
+			<ul>
+				<li>
+					<i class="mdi mdi-parking"></i>
+					Cochera cubierta
+				</li>
+				<li>
+					<i class="mdi mdi-wifi"></i>
+					WiFi
+				</li>
+				<li>
+					<i class="mdi mdi-scale-bathroom"></i>
+					Batas y toallas
+				</li>
+				<li>
+					<i class="mdi mdi-broom"></i>
+					Servicio de mucama
+				</li>
+				<li>
+					<i class="mdi mdi-washing-machine"></i>
+					Ropa blanca
+				</li>
+				<li>
+					<i class="mdi mdi-camera-rear"></i>
+					Cámaras de vigilacia
+				</li>
+				<li>
+					<i class="mdi mdi-white-balance-sunny"></i>
+					Calefacción central
+				</li>
+				<li>
+					<i class="mdi mdi-television"></i>
+					Smart TV 40''
+				</li>
+				<li>
+					<i class="mdi mdi-snowflake"></i>
+					Aire acondicionado
+				</li>
+				<li>
+					<i class="mdi mdi-thermometer-lines"></i>
+					Sauna seco y húmedo
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="fotos" id="anchorGaleria">
+		<div class="container">
+			<h2>
+				<span class="strong">Galería de fotos</span>
+				<span class="light">Conocé nuestras hermosas vistas</span>
+			</h2>
+			<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+				{{ render(controller('AppBundle:Default:galeria', {id: 1})) }}
+			</div>
+		</div>
+	</section>
+
+  <section class="fotos">
+    <div class="container">
+      <h2>Paseo panorámico</h2>
+      <div class="row">
+        <div id="container" style="width:100%;height:500px;overflow:hidden;"></div>
+      </div>
+    </div>
+  </section>
+	
+	<section class="fotos" id="videos">
+		<div class="container">
+        	<h2>Videos</h2>
+	        <div class="row">
+	            <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your embedded video player code -->
+  <div class="fb-video" data-href="https://www.facebook.com/facebook/videos/10153231379946729/" data-width="100%" data-show-text="false">
+    <div class="fb-xfbml-parse-ignore">
+      <blockquote cite="https://www.facebook.com/facebook/videos/10153231379946729/">
+        <a href="https://www.facebook.com/facebook/videos/10153231379946729/">How to Share With Just Friends</a>
+        <p>How to share with just friends.</p>
+        Posted by <a href="https://www.facebook.com/facebook/">Facebook</a> on Friday, December 5, 2014
+      </blockquote>
+    </div>
+  </div>
+            </div>
+            
+            {#
+            <div class="row">
+    			<div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="720" height="405" src="https://www.youtube.com/embed/3fS-w7eOUVc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+            #}
+            
+    	</div>
+	</section>
+
+	<section class="ubicacion" id="anchorUbicacion">
+		<div class="container">
+			<h2>
+				<span class="strong">Como llegar</span>
+				<span class="light">Ubicado sobre la playa y con vista al mar</span>
+			</h2>
+		</div>
+		<div id="map"></div>
+	</section>
+
+	<section class="contacto" id="anchorContacto">
+		<div class="container">
+			<h2>
+				<span class="strong">Contacto</span>
+				<span class="light">Déjenos su consulta, le responderemos a la brevedad</span>
+			</h2>
+			<form action="">
+				<div class="row">
+					<div class="col-sm-6">
+						<input type="text" placeholder="Nombre">
+						<input type="text" placeholder="Telefono">
+						<input type="text" placeholder="Email">
+					</div>
+					<div class="col-sm-6">
+						<textarea placeholder="Comentario"></textarea>
+					</div>
+					<div class="col-sm-12">
+						<a href="" class="send">Enviar</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+  <script type="text/javascript">
+    // create the panorama player with the container
+    pano=new pano2vrPlayer("container");
+    // add the skin object
+    skin=new pano2vrSkin(pano,"{{ asset('bundles/app/images/panoramicas/') }}");
+    // load the configuration
+  
+    window.addEventListener("load", function() {
+      pano.readConfigUrlAsync("{{ asset('bundles/app/images/panoramicas/pano.xml') }}");
+    });
+  </script> 
+  
+
+  <script type="text/javascript">
+    carga("{{ asset('bundles/app/images/panoramicas/') }}");
+  </script>
+
+{% endblock %}
+	
